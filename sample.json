@@ -1,0 +1,214 @@
+{
+    "name": "adf",
+    "email": "asdfsd",
+    "selectedOptionsArray": [
+        {
+            "questionNumber": 1,
+            "question": " I have Hashimoto’s Thyroid",
+            "selectedOptions": [
+                {
+                    "option": "a",
+                    "statement": "Yes"
+                }
+            ]
+        },
+        {
+            "questionNumber": 2,
+            "question": "I have Graves’ disease",
+            "selectedOptions": [
+                {
+                    "option": "b",
+                    "statement": "No"
+                }
+            ]
+        },
+        {
+            "questionNumber": 3,
+            "question": "I have had my thyroid surgically removed",
+            "selectedOptions": [
+                {
+                    "option": "a",
+                    "statement": "Yes"
+                }
+            ]
+        },
+        {
+            "questionNumber": 4,
+            "question": " I have h. pylori",
+            "selectedOptions": [
+                {
+                    "option": "a",
+                    "statement": "Yes"
+                }
+            ]
+        },
+        {
+            "questionNumber": 5,
+            "question": "I have had my gallbladder removed",
+            "selectedOptions": [
+                {
+                    "option": "b",
+                    "statement": "No"
+                }
+            ]
+        },
+        {
+            "questionNumber": 6,
+            "question": "I have pain under my right rib cage",
+            "selectedOptions": [
+                {
+                    "option": "c",
+                    "statement": "I notice pain a few times a week"
+                }
+            ]
+        },
+        {
+            "questionNumber": 7,
+            "question": "Eating a high fat meal bothers me",
+            "selectedOptions": [
+                {
+                    "option": "d",
+                    "statement": "Almost anytime I eat a high fat meal it can cause me to feel badly"
+                }
+            ]
+        },
+        {
+            "questionNumber": 8,
+            "question": "I have a great deal of bloating",
+            "selectedOptions": [
+                {
+                    "option": "c",
+                    "statement": "Moderate"
+                }
+            ]
+        },
+        {
+            "questionNumber": 9,
+            "question": "I have swelling in my lower ankles, feet or hands",
+            "selectedOptions": [
+                {
+                    "option": "c",
+                    "statement": "Moderate"
+                }
+            ]
+        },
+        {
+            "questionNumber": 10,
+            "question": "I am losing my hair",
+            "selectedOptions": [
+                {
+                    "option": "b",
+                    "statement": "I notice some slight shedding"
+                }
+            ]
+        },
+        {
+            "questionNumber": 11,
+            "question": "Describe your energy levels",
+            "selectedOptions": [
+                {
+                    "option": "b",
+                    "statement": "I am tired all day and all night even though I sleep pretty well"
+                }
+            ]
+        },
+        {
+            "questionNumber": 12,
+            "question": "I have brain fog or memory problems, or problems concentrating",
+            "selectedOptions": [
+                {
+                    "option": "b",
+                    "statement": "Mild"
+                }
+            ]
+        },
+        {
+            "questionNumber": 13,
+            "question": "I have depression",
+            "selectedOptions": [
+                {
+                    "option": "b",
+                    "statement": "Mild"
+                }
+            ]
+        },
+        {
+            "questionNumber": 14,
+            "question": "I have anxiety",
+            "selectedOptions": [
+                {
+                    "option": "a",
+                    "statement": "I have none of the above"
+                }
+            ]
+        },
+        {
+            "questionNumber": 15,
+            "question": "I crave salty foods",
+            "selectedOptions": [
+                {
+                    "option": "a",
+                    "statement": "I have none of the above"
+                }
+            ]
+        },
+        {
+            "questionNumber": 16,
+            "question": "I crave carbohydrates and/or sweets",
+            "selectedOptions": [
+                {
+                    "option": "a",
+                    "statement": "I have none of the above"
+                }
+            ]
+        },
+        {
+            "questionNumber": 17,
+            "question": "I have heartburn, indigestion, gastritis, stomach ulcers or stomach pain",
+            "selectedOptions": [
+                {
+                    "option": "b",
+                    "statement": "Mild"
+                }
+            ]
+        },
+        {
+            "questionNumber": 18,
+            "question": "I have some type of unresolved pain or inflammation",
+            "selectedOptions": [
+                {
+                    "option": "c",
+                    "statement": "Moderate"
+                }
+            ]
+        },
+        {
+            "questionNumber": 19,
+            "question": "Which one of these describes your sleeping pattern",
+            "selectedOptions": [
+                {
+                    "option": "a",
+                    "statement": "I have trouble falling asleep"
+                }
+            ]
+        },
+        {
+            "questionNumber": 20,
+            "question": "Which one of these best describes your body shape and where you store fat",
+            "selectedOptions": [
+                {
+                    "option": "c",
+                    "statement": " I have a swollen abdomen like a pregnant women"
+                },
+                {
+                    "option": "d",
+                    "statement": "I tend to store fat all over and have fat flabby arms"
+                },
+                {
+                    "option": "f",
+                    "statement": "I am underweight"
+                }
+            ]
+        }
+    ]
+}
