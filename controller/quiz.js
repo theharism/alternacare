@@ -6,11 +6,15 @@ exports.quiz = async (req, res) => {
 
     const score = calculateScore(quizResults);
 
-    const cleanseRecommendation = getCleanseRecommendation(score);
-
-    await sendReccomendationViaMail(cleanseRecommendation);
+    const cleanseRecommendationIndex = getCleanseRecommendation(score);
+    await sendReccomendationViaMail(
+      quizResults.email,
+      cleanseRecommendationIndex,
+      quizResults.selectedOptionsArray
+    );
 
     res.status(200).json({ message: "Recommendation sent via email" });
+    // res.status(200).json({ recommendation: body });
   } catch (error) {
     console.error(error);
     res.status(500).json({ message: "Internal Server Error" });
@@ -244,17 +248,17 @@ function calculateScore(quizResults) {
 }
 
 function getCleanseRecommendation(scores) {
-  const cleanserNames = [
-    "Hashimoto’s cleanse",
-    "Graves disease Hyperthyroid cleanse",
-    "Primary Hypothyroid Cleanse",
-    "Liver cleanse",
-    "H. pylori cleanse",
-    "Gut Cleanse",
-    "Adrenal Cleanse",
-  ];
+  //   const cleanserNames = [
+  //     "Hashimoto’s cleanse",
+  //     "Graves disease Hyperthyroid cleanse",
+  //     "Primary Hypothyroid Cleanse",
+  //     "Liver cleanse",
+  //     "H. pylori cleanse",
+  //     "Gut Cleanse",
+  //     "Adrenal Cleanse",
+  //   ];
 
   const index = scores.indexOf(Math.max(...scores));
 
-  return cleanserNames[index];
+  return index;
 }
