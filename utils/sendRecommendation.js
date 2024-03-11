@@ -145,7 +145,7 @@ async function sendReccomendationViaMail(
                               <table width="100%" border="0" cellpadding="0" cellspacing="0">
                                   <tr>
                                       <td valign="top" align="center" style="padding: 36px 15px 30px">
-                                          <a href="#" style="display: inline-block; border: 0; text-decoration: none;"><img alt="alternacareinc" src="${process.env.SERVER_URL}/logo.webp" width="256" height="64" style="display: block;" vspace="0" hspace="0" border="0"></a>
+                                          <a href="#" style="display: inline-block; border: 0; text-decoration: none;"><img alt="alternacareinc" src="https://firebasestorage.googleapis.com/v0/b/linkedin-post-generator-bcd8d.appspot.com/o/logo.webp?alt=media&token=756e9f75-0d84-4566-b490-3667a29457e1" width="256" height="64" style="display: block;" vspace="0" hspace="0" border="0"></a>
                                       </td>
                                   </tr>
                               </table>
@@ -190,7 +190,7 @@ async function sendReccomendationViaMail(
                       </tr>
                       <tr>
                           <td valign="top" height="382">
-                              <img alt="image" src="${process.env.SERVER_URL}/banner.webp" width="100%" style="display: block;" vspace="0" hspace="0" border="0">     
+                              <img alt="image" src="https://firebasestorage.googleapis.com/v0/b/linkedin-post-generator-bcd8d.appspot.com/o/banner.webp?alt=media&token=94584046-cacd-434c-9b61-8baac00cac52" width="100%" style="display: block;" vspace="0" hspace="0" border="0">     
                         </td>
                       </tr>
                       <tr>
@@ -367,37 +367,7 @@ async function sendReccomendationViaMail(
           
       </table>
       
-      <div class="quiz-container">
-        <h1>Health Quiz Results</h1>
-           <div id="quizForm">
-        </div>
-    </div>
-    
-    <script>
-
-
-        const quizForm = document.getElementById("quizForm");
-    const questions = ${response}
-        questions.forEach((question) => {
-          const questionDiv = document.createElement("div");
-          questionDiv.classList.add("question");
-          questionDiv.innerHTML = "
-                  <p><strong>Q no. question.questionNumber </strong>: question.question</p>
-              ";
-          const optionsList = document.createElement("ul");
-          optionsList.classList.add("options");
-          question.selectedOptions.forEach((option) => {
-            const optionItem = document.createElement("li");
-            optionItem.classList.add("option");
-            optionItem.innerHTML = "<strong>Ans:</strong> option.statement";
-            optionsList.appendChild(optionItem);
-          });
-          questionDiv.appendChild(optionsList);
-          quizForm.appendChild(questionDiv);
-        });
-
-    </script>
-  </body>
+   </body>
   
   </html>`;
 
